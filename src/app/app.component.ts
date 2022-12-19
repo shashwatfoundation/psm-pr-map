@@ -29,7 +29,11 @@ export class AppComponent implements OnInit {
             'assets/pr/collections/bapaniMurti/1.png',
             'assets/pr/collections/bapaniMurti/2.png',
             'assets/pr/collections/bapaniMurti/3.png',
-            'assets/pr/collections/bapaniMurti/4.png'
+            'assets/pr/collections/bapaniMurti/4.png',
+            'assets/pr/collections/bapaniMurti/5.png',
+            'assets/pr/collections/bapaniMurti/6.png',
+            'assets/pr/collections/bapaniMurti/7.png',
+            'assets/pr/collections/bapaniMurti/8.png'
           ],
     fassadWithCharacter: [
             'assets/pr/collections/fassadWithCharacter/1.png',
@@ -60,7 +64,16 @@ export class AppComponent implements OnInit {
             'assets/pr/collections/mascot/2.png',
             'assets/pr/collections/mascot/3.png',
             'assets/pr/collections/mascot/4.png',
-            'assets/pr/collections/mascot/5.png'
+            'assets/pr/collections/mascot/5.png',
+            'assets/pr/collections/mascot/6.png',
+            'assets/pr/collections/mascot/7.png',
+            'assets/pr/collections/mascot/8.png',
+            'assets/pr/collections/mascot/9.png',
+            'assets/pr/collections/mascot/10.png',
+            'assets/pr/collections/mascot/11.png',
+            'assets/pr/collections/mascot/12.png',
+            'assets/pr/collections/mascot/13.png',
+            'assets/pr/collections/mascot/14.png'
           ]
   };
 
