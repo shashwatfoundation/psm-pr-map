@@ -1,11 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   
   slides:any = {
     tanki: [
@@ -71,6 +71,21 @@ export class AppComponent {
   private swipeTime: number;
 
   currentSlide: number = 0;
+
+  constructor() {}
+
+  ngOnInit(): void {
+    try {
+      for(let slide of Object.keys(this.slides)) {
+        for(let imgUrl of this.slides[slide]) {
+          let img = new Image();
+          img.src = imgUrl; 
+          img.onload = function () {
+          }
+        }
+      }
+    } catch(e) {}
+  }
 
   openLocation(location?:any) {
     this.currentSliders = this.slides[location];

@@ -2,27 +2,27 @@
   <img src="./../assets/pr/bg.jpg" style="width: 100%; height: 100vh;" />
   <img src="./../assets/img/balnagari_logo.png" style="width: 16vw; position: absolute; z-index: 2; left: 5vw; top: 3vh;" />
 
-  <div (click)="openLocation('tanki')" class="pin-location pin1" style="top: 58vh; left: 59.5%;"></div>
+  <div (click)="openLocation('tanki')" class="pin-location pin1" style="top: 53vh; left: 26%;"></div>
   
-  <div (click)="openLocation('balSnehiGarden')" class="pin-location pin1" style="top: 54vh; left: 70.4%;"></div>
+  <div (click)="openLocation('balSnehiGarden')" class="pin-location pin1" style="top: 51vh; left: 63%;"></div>
 
-  <div (click)="openLocation('train')" class="pin-location pin1" style="top: 51vh; left: 46.4%;"></div>
+  <div (click)="openLocation('train')" class="pin-location pin1" style="top: 48vh; left: 38.4%;"></div>
 
-  <div (click)="openLocation('bapaniMurti')" class="pin-location pin1" style="top: 41vh; left: 58%;"></div>
+  <div (click)="openLocation('bapaniMurti')" class="pin-location pin1" style="top: 38vh; left: 50.5%;"></div>
 
-  <div (click)="openLocation('fassadWithCharacter')" class="pin-location pin1" style="top: 64vh; left: 46.5%;"></div>
+  <div (click)="openLocation('fassadWithCharacter')" class="pin-location pin1" style="top: 62vh; left: 39%;"></div>
 
-  <div (click)="openLocation('animalCorner')" class="pin-location pin1" style="top: 50vh; left: 18.9%;"></div>
+  <div (click)="openLocation('animalCorner')" class="pin-location pin1" style="top: 48vh; left: 11.5%;"></div>
 
-  <div (click)="openLocation('talentStage')" class="pin-location pin1" style="top: 36vh; left: 36.4%;"></div>
+  <div (click)="openLocation('talentStage')" class="pin-location pin1" style="top: 33vh; left: 30.4%;"></div>
 
-  <div (click)="openLocation('balBalikaDance')" class="pin-location pin1" style="top: 30vh; left: 70.4%;"></div>
+  <div (click)="openLocation('balBalikaDance')" class="pin-location pin1" style="top: 27vh; left: 63.4%;"></div>
 
-  <div (click)="openLocation('mascot')" class="pin-location pin1" style="top: 15vh; left: 61.4%;"></div>
+  <div (click)="openLocation('mascot')" class="pin-location pin1" style="top: 12vh; left: 54%;"></div>
 
 </div>
 
-<div *ngIf="slider" style="position: fixed; z-index: 10000; top: 0; left: 0; width: 100%; height: 100vh;">
+<div *ngIf="slider" class="app-fade" style="position: fixed; z-index: 10000; top: 0; left: 0; width: 100%; height: 100vh; background: white;">
   <div (click)="slider = false" class="close-btn">✖</div>
   <div (touchstart)="swipe($event, 'start')" (touchend)="swipe($event, 'end')">
     <ng-container *ngFor="let slide of currentSliders, let index = index;">
